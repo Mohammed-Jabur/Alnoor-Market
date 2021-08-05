@@ -8,6 +8,6 @@
     <corners android:radius="60dp"/>
 
     <stroke android:width="2dp"
-        android:color="@color/black"/>
+        android:color="@color/view_bg_color"/>
 
 </shape>

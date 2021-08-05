@@ -16,4 +16,7 @@
 
     <color name="pink_normal">#F2D32C65</color>
     <color name="pink_dark">#D50048</color>
+    
+    <color name="blue_gray_normal">#FA90A4AE</color>
+    <color name="blue_gray_dark">#62757f</color>
 </resources>

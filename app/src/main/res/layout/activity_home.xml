@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:paddingLeft="24dp"
     android:paddingRight="24dp"
-    android:background="@drawable/img_7"
+    android:background="@drawable/img_6"
     tools:context=".HomeActivity">
 
     <TextView
@@ -16,7 +16,7 @@
         android:text="Alnoor for Grocery\n&amp;\nHygiene Products"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold|italic"
-        android:textColor="@color/add_bg_color"
+        android:textColor="@color/view_bg_color"
         android:fontFamily="serif"
         android:gravity="center"
         app:layout_constraintTop_toTopOf="parent"
