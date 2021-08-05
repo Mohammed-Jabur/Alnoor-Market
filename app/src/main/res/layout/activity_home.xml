@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="32dp"
-    android:paddingRight="32dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
     android:background="@drawable/img_7"
     tools:context=".HomeActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Alnoor for Grocery &amp; Hygiene Products"
+        android:maxLines="3"
+        android:text="Alnoor for Grocery\n&amp;\nHygiene Products"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold|italic"
         android:textColor="@color/add_bg_color"
@@ -29,12 +30,14 @@
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
+        android:padding="8dp"
+        android:clipToPadding="false"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.35">
+        app:layout_constraintVertical_bias="0.4">
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/add_product_btn"
@@ -42,19 +45,10 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:padding="16dp"
             android:layout_marginRight="8dp"
-            app:cornerRadius="16dp"
-            app:strokeWidth="2dp"
-            app:strokeColor="@color/view_bg_color"
-            style="@style/Widget.MaterialComponents.Button"
-            android:backgroundTint="?android:attr/windowBackground"
             android:drawableTop="@drawable/img_add"
             android:text="Add Product"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textAllCaps="false"/>
+            style="@style/button_style"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/delete_product_btn"
@@ -62,18 +56,10 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:padding="16dp"
             android:layout_marginLeft="8dp"
-            app:cornerRadius="16dp"
-            app:strokeWidth="2dp"
-            app:strokeColor="@color/view_bg_color"
-            android:backgroundTint="?android:attr/windowBackground"
             android:drawableTop="@drawable/img_delete"
             android:text="Delete Product"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textAllCaps="false"/>
+            style="@style/button_style"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/view_product_btn"
@@ -81,18 +67,10 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:padding="16dp"
             android:layout_marginRight="8dp"
-            app:cornerRadius="16dp"
-            app:strokeWidth="2dp"
-            app:strokeColor="@color/view_bg_color"
-            android:backgroundTint="?android:attr/windowBackground"
             android:drawableTop="@drawable/img_view"
             android:text="View Product"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textAllCaps="false"/>
+            style="@style/button_style"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/view_all_product_btn"
@@ -100,31 +78,11 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:padding="16dp"
             android:layout_marginLeft="8dp"
-            app:cornerRadius="16dp"
-            app:strokeWidth="2dp"
-            app:strokeColor="@color/view_bg_color"
-            android:backgroundTint="?android:attr/windowBackground"
             android:drawableTop="@drawable/img_inventory"
             android:text="View Inventory"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textAllCaps="false"/>
+            style="@style/button_style"/>
 
     </GridLayout>
-
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="Test"
-        app:cornerRadius="16dp"
-        android:drawableTop="@drawable/img_add"
-        android:backgroundTint="@color/pink_normal"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/grid_layout"
-        app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

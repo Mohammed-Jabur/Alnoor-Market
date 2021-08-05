@@ -14,6 +14,6 @@
     <color name="app_foreground">#00BCD4</color>
     <color name="app_background">#56F1DFB9</color>
 
-    <color name="pink_normal">#DDE4175D</color>
-    <color name="pink_dark">#D5044B</color>
+    <color name="pink_normal">#F2D32C65</color>
+    <color name="pink_dark">#D50048</color>
 </resources>
