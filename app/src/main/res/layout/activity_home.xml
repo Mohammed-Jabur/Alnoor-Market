@@ -4,33 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="24dp"
-    android:paddingRight="24dp"
-    android:background="@drawable/img_6"
     tools:context=".HomeActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:maxLines="3"
-        android:text="Alnoor for Grocery\n&amp;\nHygiene Products"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textStyle="bold|italic"
-        android:textColor="@color/view_bg_color"
-        android:fontFamily="serif"
-        android:gravity="center"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/grid_layout"/>
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_grocery"
+        android:alpha="0.9"/>
 
     <GridLayout
-        android:id="@+id/grid_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:rowCount="2"
         android:columnCount="2"
-        android:padding="8dp"
+        android:padding="16dp"
         android:clipToPadding="false"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -45,42 +33,42 @@
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"
             android:drawableTop="@drawable/img_add"
-            android:text="Add Product"
+            android:text="@string/add_product"
             style="@style/button_style"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/delete_product_btn"
+            android:id="@+id/edit_product_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:layout_marginLeft="8dp"
-            android:drawableTop="@drawable/img_delete"
-            android:text="Delete Product"
+            android:layout_marginStart="8dp"
+            android:drawableTop="@drawable/img_edit"
+            android:text="@string/edit_product"
             style="@style/button_style"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/view_product_btn"
+            android:id="@+id/find_product_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:layout_marginRight="8dp"
-            android:drawableTop="@drawable/img_view"
-            android:text="View Product"
+            android:layout_marginEnd="8dp"
+            android:drawableTop="@drawable/img_search"
+            android:text="@string/find_product"
             style="@style/button_style"/>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/view_all_product_btn"
+            android:id="@+id/inventory_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:drawableTop="@drawable/img_inventory"
-            android:text="View Inventory"
+            android:text="@string/view_inventory"
             style="@style/button_style"/>
 
     </GridLayout>

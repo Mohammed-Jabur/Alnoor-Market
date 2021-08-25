@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ic_background"/>
+
+    <item android:drawable="@drawable/ic_search_barcode"
+        android:start="16dp" android:end="16dp"
+        android:top="8dp" android:bottom="8dp"
+        android:gravity="center"/>
+
+</layer-list>

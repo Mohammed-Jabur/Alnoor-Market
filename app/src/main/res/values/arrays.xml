@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_category_options">
+        <item>@string/unknown</item>
+        <item>@string/dairy</item>
+        <item>@string/barbeque_goods</item>
+        <item>@string/prepaid_cards</item>
+        <item>@string/snacks</item>
+        <item>@string/beverages</item>
+        <item>@string/bread_bakery</item>
+        <item>@string/icecream</item>
+        <item>@string/meat</item>
+        <item>@string/home_care</item>
+        <item>@string/baby_care</item>
+        <item>@string/baby_food</item>
+        <item>@string/personal_care</item>
+        <item>@string/ration_goods</item>
+        <item>@string/canned_jarred_goods</item>
+        <item>@string/cereals_legumes</item>
+        <item>@string/spices</item>
+        <item>@string/sauce</item>
+        <item>@string/vegetables</item>
+        <item>@string/fruit</item>
+        <item>@string/sweets_goods</item>
+        <item>@string/frozen_foods</item>
+        <item>@string/pastry</item>
+        <item>@string/healthy_foods</item>
+        <item>@string/electrician_tools</item>
+        <item>@string/other</item>
+    </string-array>
+
+</resources>

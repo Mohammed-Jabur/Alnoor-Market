@@ -1,3 +1,65 @@
 <resources>
-    <string name="app_name">Alnoor Store</string>
+    <string name="app_name">Alnoor Market</string>
+    <string name="add_product">Add Product</string>
+    <string name="edit_product">Edit Product</string>
+    <string name="find_product">Find Product</string>
+    <string name="inventory">Inventory</string>
+    <string name="action_add">Add</string>
+    <string name="action_update">Update</string>
+    <string name="action_delete">Delete</string>
+    <string name="product_details">Product Details</string>
+    <string name="number">Number</string>
+    <string name="number_hint">Barcode Number</string>
+    <string name="name">Name</string>
+    <string name="name_hint">Product Name</string>
+    <string name="price">Price</string>
+    <string name="price_unit">D.L</string>
+    <string name="category">Category</string>
+    <string name="looking_for_product">Looking for Product</string>
+    <string name="number_name_hint">Product {Number/Name}</string>
+    <string name="search">Search</string>
+    <string name="product_number">Product Number  </string>
+    <string name="product_name">Product Name    </string>
+    <string name="product_price">Product Price   </string>
+    <string name="product_category">Product Category</string>
+    <string name="view_inventory">View Inventory</string>
+    <string name="splash_text">Alnoor for Grocery\n&amp;\nHygiene Products</string>
+
+    <string name="unknown">Unknown</string>
+    <string name="dairy">Dairy</string>
+    <string name="barbeque_goods">Barbeque Goods</string>
+    <string name="prepaid_cards">Prepaid Cards</string>
+    <string name="snacks">Snacks</string>
+    <string name="beverages">Beverages</string>
+    <string name="bread_bakery">Bread &amp; Bakery</string>
+    <string name="icecream">Icecream</string>
+    <string name="meat">Meat</string>
+    <string name="home_care">Home Care</string>
+    <string name="baby_care">Baby Care</string>
+    <string name="baby_food">Baby Food</string>
+    <string name="personal_care">Personal Care</string>
+    <string name="ration_goods">Ration Goods</string>
+    <string name="canned_jarred_goods">Canned &amp; Jarred Goods</string>
+    <string name="cereals_legumes">Cereals &amp; Legumes</string>
+    <string name="spices">Spices</string>
+    <string name="sauce">Sauce</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="fruit">Fruit</string>
+    <string name="sweets_goods">Sweets Goods</string>
+    <string name="frozen_foods">Frozen Foods</string>
+    <string name="pastry">Pastry</string>
+    <string name="healthy_foods">Healthy Foods</string>
+    <string name="electrician_tools">Electrician Tools</string>
+    <string name="other">Other</string>
+
+    <string name="update_state" translatable="false">Updated</string>
+    <string name="delete_state" translatable="false">Deleted</string>
+    <string name="update_product_message">Product Updated</string>
+    <string name="delete_product_message">Product Deleted</string>
+    <string name="exist_product_message">This product is already exists</string>
+    <string name="add_product_message">New product has added successfully</string>
+    <string name="empty_field_message">There is an empty field!, Fill it first.</string>
+    <string name="not_selected_product_message">No selected product!, Scan product first</string>
+    <string name="not_found_product">Product Not Found!</string>
+
 </resources>
